@@ -1,0 +1,24 @@
+{{! This will be your default layout for all handlebars file rendered. This will be inherited by all other templates. }}
+{{! Refer lecture code to learn more on how this works }}
+
+<html lang='en'>
+	<head>
+		<meta charset='utf-8' />
+		<title>{{title}}</title>
+		<link rel='stylesheet' href='public/css/style.css' />
+	</head>
+	<body>
+		<header>
+			<h1>{{title}}</h1>
+		</header>
+
+		{{{body}}}
+
+		<footer class='footer'>
+			<p>Name: Georges Hatem</p>
+			<p>Student ID: 10479490</p>
+			<p>Doing my Master in Computer Science at Stevens Institute of Technology</p>
+		</footer>
+	</body>
+</html>
+
