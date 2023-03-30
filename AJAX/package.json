@@ -1,0 +1,15 @@
+{
+  "name": "lab_11_module",
+  "version": "1.0.0",
+  "description": "Module Lab 11",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Georges Hatem 10479490",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
